@@ -10,9 +10,9 @@
   --callout-headingFontColor-tip: hsl(277, 76%, 31%);
   --callout-bg-tip: hsl(276, 70%, 90%);
   --callout-border-tip: hsl(277, 81%, 60%);
-  --callout-headingFontColor-warn: hsl(41, 57%, 27%);
-  --callout-bg-warn: hsl(43, 80%, 88%);
-  --callout-border-warn: hsl(41, 80%, 63%);
+  --callout-headingFontColor-caution: hsl(41, 57%, 27%);
+  --callout-bg-caution: hsl(43, 80%, 88%);
+  --callout-border-caution: hsl(41, 80%, 63%);
   --callout-headingFontColor-danger: hsl(342, 62%, 31%);
   --callout-bg-danger: hsl(338, 57%, 89%);
   --callout-border-danger: hsl(341, 72%, 60%);
@@ -28,9 +28,9 @@
   --callout-headingFontColor-tip: hsl(276, 72%, 89%);
   --callout-bg-tip: hsl(276, 36%, 22%);
   --callout-border-tip: hsl(277, 81%, 60%);
-  --callout-headingFontColor-warn: hsl(42, 72%, 87%);
-  --callout-bg-warn: hsl(43, 33%, 22%);
-  --callout-border-warn: hsl(42, 72%, 65%);
+  --callout-headingFontColor-caution: hsl(42, 72%, 87%);
+  --callout-bg-caution: hsl(43, 33%, 22%);
+  --callout-border-caution: hsl(42, 72%, 65%);
   --callout-headingFontColor-danger: hsl(338, 61%, 86%);
   --callout-bg-danger: hsl(339, 32%, 21%);
   --callout-border-danger: hsl(340, 64%, 62%);
@@ -86,10 +86,10 @@
   --callout-bg: var(--callout-bg-success);
   --callout-border: var(--callout-border-success);
 }
-.callout-warn {
-  --callout-headingFontColor: var(--callout-headingFontColor-warn);
-  --callout-bg: var(--callout-bg-warn);
-  --callout-border: var(--callout-border-warn);
+.callout-caution {
+  --callout-headingFontColor: var(--callout-headingFontColor-caution);
+  --callout-bg: var(--callout-bg-caution);
+  --callout-border: var(--callout-border-caution);
 }
 .callout-danger {
   --callout-headingFontColor: var(--callout-headingFontColor-danger);
