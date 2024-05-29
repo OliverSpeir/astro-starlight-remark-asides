@@ -15,12 +15,12 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/OliverSpeir/remark-imgattr.git"
+    "url": "git+https://github.com/OliverSpeir/astro-starlight-remark-asides.git"
   },
   "bugs": {
-    "url": "https://github.com/OliverSpeir/remark-imgattr/issues"
+    "url": "https://github.com/OliverSpeir/astro-starlight-remark-asides/issues"
   },
-  "homepage": "https://github.com/OliverSpeir/remark-imgattr#readme",
+  "homepage": "https://github.com/OliverSpeir/astro-starlight-remark-asides#readme",
   "type": "module",
   "main": "index.js",
   "types": "types.d.ts",
