@@ -1,6 +1,7 @@
 # Starlight's `<Asides/>`s for Astro md/mdx
 
 Add asides with remark directives
+[npm package](https://www.npmjs.com/package/astro-starlight-remark-asides)
 
 1. note
 2. tip
