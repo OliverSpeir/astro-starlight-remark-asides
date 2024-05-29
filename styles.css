@@ -1,0 +1,103 @@
+/* This is taken from @microflash/remark-callout-directives/themes/github/index.css and modified. Modified to work with tailwind darkMode, and match starlights <Asides/> */
+
+:root {
+  --callout-headingFontColor-note: hsl(235, 76%, 29%);
+  --callout-bg-note: hsl(236, 77%, 90%);
+  --callout-border-note: hsl(235, 82%, 59%);
+  --callout-headingFontColor-success: hsl(137, 72%, 24%);
+  --callout-bg-success: hsl(96, 79%, 91%);
+  --callout-border-success: hsl(137, 66%, 30%);
+  --callout-headingFontColor-tip: hsl(277, 76%, 31%);
+  --callout-bg-tip: hsl(276, 70%, 90%);
+  --callout-border-tip: hsl(277, 81%, 60%);
+  --callout-headingFontColor-warn: hsl(41, 57%, 27%);
+  --callout-bg-warn: hsl(43, 80%, 88%);
+  --callout-border-warn: hsl(41, 80%, 63%);
+  --callout-headingFontColor-danger: hsl(342, 62%, 31%);
+  --callout-bg-danger: hsl(338, 57%, 89%);
+  --callout-border-danger: hsl(341, 72%, 60%);
+}
+
+:root[data-theme="dark"] {
+  --callout-headingFontColor-note: hsl(235, 86%, 86%);
+  --callout-bg-note: hsl(235, 50%, 20%);
+  --callout-border-note: hsl(235, 90%, 59%);
+  --callout-headingFontColor-success: hsl(96, 77%, 81%);
+  --callout-bg-success: hsl(95, 33%, 23%);
+  --callout-border-success: hsl(96, 77%, 81%);
+  --callout-headingFontColor-tip: hsl(276, 72%, 89%);
+  --callout-bg-tip: hsl(276, 36%, 22%);
+  --callout-border-tip: hsl(277, 81%, 60%);
+  --callout-headingFontColor-warn: hsl(42, 72%, 87%);
+  --callout-bg-warn: hsl(43, 33%, 22%);
+  --callout-border-warn: hsl(42, 72%, 65%);
+  --callout-headingFontColor-danger: hsl(338, 61%, 86%);
+  --callout-bg-danger: hsl(339, 32%, 21%);
+  --callout-border-danger: hsl(340, 64%, 62%);
+}
+
+.callout {
+  --calloutheadingFontColor: var(--callout-headingFontColor);
+  --callout-bg: var(--callout-bg);
+  --callout-border: var(--callout-border);
+  border-left: 0.25em solid var(--callout-border);
+  padding: 0.5rem 1rem;
+  color: inherit;
+  background-color: var(--callout-bg);
+  border-radius: 0.125rem;
+}
+
+.callout-indicator {
+  display: flex;
+  align-items: center;
+  line-height: 1;
+  margin-bottom: 16px;
+  color: var(--calloutheadingFontColor);
+}
+
+.callout-title {
+  font-weight: 600;
+  font-size: 1.25rem;
+  letter-spacing: 0.025em;
+}
+
+.callout-indicator > svg:first-of-type {
+  margin-right: 0.5rem;
+}
+
+.callout-content:first-child,
+.callout-content:only-child {
+  margin-block-start: 0;
+}
+
+.callout-content:last-child,
+.callout-content:only-child {
+  margin-block-end: 0;
+}
+
+.callout-note {
+  --callout-headingFontColor: var(--callout-headingFontColor-note);
+  --callout-bg: var(--callout-bg-note);
+  --callout-border: var(--callout-border-note);
+}
+
+.callout-success {
+  --callout-headingFontColor: var(--callout-headingFontColor-success);
+  --callout-bg: var(--callout-bg-success);
+  --callout-border: var(--callout-border-success);
+}
+.callout-warn {
+  --callout-headingFontColor: var(--callout-headingFontColor-warn);
+  --callout-bg: var(--callout-bg-warn);
+  --callout-border: var(--callout-border-warn);
+}
+.callout-danger {
+  --callout-headingFontColor: var(--callout-headingFontColor-danger);
+  --callout-bg: var(--callout-bg-danger);
+  --callout-border: var(--callout-border-danger);
+}
+.callout-tip {
+  --callout-headingFontColor: var(--callout-headingFontColor-tip);
+  --callout-bg: var(--callout-bg-tip);
+  --callout-border: var(--callout-border-tip);
+}

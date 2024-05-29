@@ -1,0 +1,32 @@
+{
+  "name": "astro-starlight-remark-asides",
+  "version": "0.0.1",
+  "description": "Use remark directives to get asides in .md/.mdx styled like starlight's asides",
+  "license": "MIT",
+  "keywords": [
+    "remark",
+    "asides",
+    "callouts",
+    "remark-directives",
+    "mdx",
+    "md",
+    "starlight",
+    "astro"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OliverSpeir/remark-imgattr.git"
+  },
+  "bugs": {
+    "url": "https://github.com/OliverSpeir/remark-imgattr/issues"
+  },
+  "homepage": "https://github.com/OliverSpeir/remark-imgattr#readme",
+  "type": "module",
+  "main": "index.js",
+  "types": "types.d.ts",
+  "files": [
+    "index.js",
+    "styles.css",
+    "types.d.ts"
+  ]
+}
