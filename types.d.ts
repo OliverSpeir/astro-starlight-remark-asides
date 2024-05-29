@@ -1,4 +1,4 @@
-declare module "remark-imgattr" {
+declare module "astro-starlight-remark-asides" {
   /**
    * you must add the respective .css file to the pages you use this on
    *
