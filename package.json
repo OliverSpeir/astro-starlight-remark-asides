@@ -1,6 +1,6 @@
 {
   "name": "astro-starlight-remark-asides",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "Use remark directives to get asides in .md/.mdx styled like starlight's asides",
   "license": "MIT",
   "keywords": [
@@ -31,6 +31,7 @@
   ],
   "dependencies": {
     "remark-directive": "^3.0.0",
-    "unist-util-visit": "^5.0.0"
+    "unist-util-visit": "^5.0.0",
+    "hastscript": "^8.0.0"
   }
 }
