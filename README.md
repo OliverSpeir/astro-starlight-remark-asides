@@ -28,12 +28,13 @@ uses `:root[data-theme="dark"]` by default, but this can be changed on line 21 o
 
 ```ts
 import { defineConfig } from "astro/config";
+import remarkDirective from "remark-directive";
 import astroStarlightRemarkAsides from "./src/path/to/index.js";
 
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-    remarkPlugins: [astroStarlightRemarkAsides],
+    remarkPlugins: [remarkDirective, astroStarlightRemarkAsides],
   },
 });
 ```
@@ -54,12 +55,13 @@ import "src/path/to/styles.css";
 
 ```ts
 import { defineConfig } from "astro/config";
+import remarkDirective from "remark-directive";
 import astroStarlightRemarkAsides from "astro-starlight-remark-asides";
 
 // https://astro.build/config
 export default defineConfig({
   markdown: {
-    remarkPlugins: [astroStarlightRemarkAsides],
+    remarkPlugins: [remarkDirective, astroStarlightRemarkAsides],
   },
 });
 ```

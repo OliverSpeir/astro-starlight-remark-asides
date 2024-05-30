@@ -28,5 +28,8 @@
     "index.js",
     "styles.css",
     "types.d.ts"
-  ]
+  ],
+  "dependencies": {
+    "remark-directive": "^3.0.0"
+  }
 }
