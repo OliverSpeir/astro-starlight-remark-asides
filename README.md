@@ -22,6 +22,10 @@ uses `:root[data-theme="dark"]` by default, but this can be changed on line 21 o
 ![light theme example](./imgs/light.png)
 ![dark theme example](./imgs/dark.png)
 
+## Requirements
+
+`astro-starlight-remark-asides` requires the `remark-directive` plugin to be added to your remark plugins before using.
+
 ## Copy files and use
 
 1. the `.js` file here is a remark plugin, import it and add it to your remark plugins
