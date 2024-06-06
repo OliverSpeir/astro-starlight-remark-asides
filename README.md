@@ -24,7 +24,7 @@ uses `:root[data-theme="dark"]` by default, but this can be changed on line 21 o
 
 ## Requirements
 
-`astro-starlight-remark-asides` requires the `remark-directive` plugin to be added to your remark plugins before using.
+Must add [remark-directive](https://github.com/remarkjs/remark-directive) plugin to your remark plugins before `astro-starlight-remark-asides`.
 
 ## Copy files and use
 
